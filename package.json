@@ -1,0 +1,28 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "Task Management App",
+  "homepage": "https://github.com/sang6174/task-management-310525#readme",
+  "bugs": {
+    "url": "https://github.com/sang6174/task-management-310525/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sang6174/task-management-310525.git"
+  },
+  "license": "ISC",
+  "author": "Sang Le Thanh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
